@@ -12,50 +12,17 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" android:layout_margin="10dp" tools:layout_editor_absoluteY="10dp"
             tools:layout_editor_absoluteX="10dp">
+
+        <ImageView
+                android:src="@drawable/brand"
+                android:layout_width="390dp"
+                android:layout_height="179dp" android:id="@+id/imageView3"
+        />
         <TextView
-                android:text="NOMBRE ALUMNO:"
+                android:text="@string/utecHistory"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textView4" android:textStyle="bold"/>
-        <TextView
-                android:text="ROBERTO ESAU PERDOMO ARAGON"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/textView2"/>
-        <TextView
-                android:text="CARNET"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textView3" android:textStyle="bold"/>
-        <TextView
-                android:text="29-4645-2013"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textView5"/>
-        <TextView
-                android:text="ASIGNATURA"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textView6" android:textStyle="bold"/>
-        <TextView
-                android:text="ELECTIVA 3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textView8"/>
-        <TextView
-                android:text="DOCENTE:"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textView7" android:textStyle="bold"/>
-        <TextView
-                android:text="JOSE OSWALDO BARRERA MONTES"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textView9"/>
+                android:layout_height="wrap_content" android:id="@+id/textView10"/>
+
     </LinearLayout>
-    <TextView
-            android:id="@+id/text_home"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:textAlignment="center"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" tools:visibility="invisible"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

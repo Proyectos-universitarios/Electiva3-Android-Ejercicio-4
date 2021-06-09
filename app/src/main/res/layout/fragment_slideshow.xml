@@ -6,9 +6,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".ui.slideshow.SlideshowFragment">
-
-    <WebView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" tools:layout_editor_absoluteX="1dp"
-            app:layout_constraintBottom_toBottomOf="parent" android:id="@+id/visorweb"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="LISTA DE EDIFICIOS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView3"/>
+        <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/idedificios"/>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

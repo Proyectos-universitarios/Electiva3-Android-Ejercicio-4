@@ -3,12 +3,14 @@
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             tools:context=".closeapp">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+             tools:context=".CarrearFragment"
+>
+    <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text=""/>
-
+            android:layout_height="match_parent">
+        <WebView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/visorweb"/>
+    </LinearLayout>
 </FrameLayout>

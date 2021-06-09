@@ -15,7 +15,14 @@
             android:id="@+id/nav_gallery"
             android:name="com.example.electivatarea4.ui.gallery.GalleryFragment"
             android:label="@string/menu_gallery"
-            tools:layout="@layout/fragment_gallery"/>
+            tools:layout="@layout/fragment_gallery">
+        <action android:id="@+id/action_nav_gallery_to_carrearFragment" app:destination="@id/carrearFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/creatorFragment"
+              android:name="com.example.electivatarea4.creatorFragment"
+              android:label="@string/menu_creador"
+              tools:layout="@layout/fragment_creator"/>
 
     <fragment
             android:id="@+id/nav_slideshow"
@@ -27,4 +34,15 @@
               android:name="com.example.electivatarea4.closeapp"
               android:label="CERRAR APP"
               tools:layout="@layout/fragment_closeapp"/>
+
+    <fragment android:id="@+id/carrearFragment" android:name="com.example.electivatarea4.CarrearFragment"
+              android:label="fragment_carrear" tools:layout="@layout/fragment_carrear">
+        <action android:id="@+id/action_carrearFragment_to_nav_gallery" app:destination="@id/nav_gallery"/>
+    </fragment>
+
+    <fragment android:id="@+id/mapsFragment" android:name="com.example.electivatarea4.MapsFragment"
+              android:label="fragment_maps" tools:layout="@layout/fragment_maps"/>
+
+
+
 </navigation>

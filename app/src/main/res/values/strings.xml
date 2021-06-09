@@ -1,16 +1,112 @@
 <resources>
-    <string name="app_name">ElectivaTarea4</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">ROBERTO PERDOMO</string>
-    <string name="nav_header_subtitle">2946452013@mail.utec.edu.sv</string>
+    <string name="app_name">EXAMEN FINAL</string>
+    <string name="nav_header_title">ALUMNO UTEC</string>
+    <string name="nav_header_subtitle">JONH DUE</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
 
-    <string name="menu_home">ALUMNO</string>
-    <string name="menu_gallery">ACERCA DE</string>
-    <string name="menu_slideshow">MIS REPOS</string>
+    <string name="menu_home">HISTORIA</string>
+    <string name="menu_gallery">CARRERAS</string>
+    <string name="menu_slideshow">EDIFICIOS</string>
+    <string name="menu_creador">CREADOR</string>
     <string name="menu_close">CERRAR</string>
+
+    <string name="google_maps_key">AIzaSyDbaeyQIkox8qQU3TzzpBNlVC4VUFJroZs</string>
+
+
+    <string name="utecHistory">La educación es la luz en el camino de la sociedad y la Universidad Tecnológica de El
+        Salvador (Utec), en el devenir de cuatro décadas de \'caminar y volar\', se ha esmerado por iluminar por medio
+        del conocimiento para hacer la diferencia. Al hacer un breve recorrido por su historia, no puede menos que
+        destacarse su sentido social, la innovación y el optimismo.
+        Fue en 1979 cuando se reunió un grupo de académicos y visionarios hombres de empresa salvadoreños para fundar el
+        Instituto Tecnológico de Comercio y Administración de Empresas (Itcae), cuyos cimientos consolidarían la
+        existencia de lo que hoy es la Utec. Los fundadores del Itcae fueron Juan José Olivo Peñate, Edgardo Emilio
+        Zepeda, José Mauricio Loucel, Rufino Garay H. y José Adolfo Araujo Romagoza.
+        La Utec nació un 12 de junio de 1981, con una población de 1,279 estudiantes, en el edificio Chahín, ubicado en
+        la calle Rubén Darío de San Salvador. Inició sus actividades con tres facultades: Ciencias Económicas,
+        Ingeniería y Arquitectura, y Ciencias y Humanidades. El primer rector fue Juan José Olivo Peñate. Posteriormente
+        ocuparon el cargo Edgardo Emilio Zepeda y Rufino Garay H. Desde 1992 hasta agosto de 2012 lo fue José Mauricio
+        Loucel, quien hoy es el presidente de la institución y ostenta el título de Rector Honorario Vitalicio, otorgado
+        en reconocimiento del amplio desarrollo que le dio durante su rectoría a esta casa de estudios. A partir de
+        septiembre de 2012 es rector, hasta la fecha, Nelson Zárate Sánchez.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="enlace_carreras">https://www.utec.edu.sv/utec_nuevoingreso/movil/carreras_detalle.php?opc=</string>
+
+    <string-array name="carreras">
+        <item>Ingeniería en Sistemas y Computación</item>
+        <item>Ingeniería Industrial</item>
+        <item>Ingeniería en Gestión de Base de Datos</item>
+        <item>Ingeniería Industrial con Énfasis en Inglés</item>
+        <item>Arquitectura</item>
+        <item>Licenciatura en Informática</item>
+        <item>Licenciatura en Diseño Gráfico</item>
+        <item>Técnico en Diseño Gráfico</item>
+        <item>Técnico en Ingeniería de Redes Computacionales</item>
+        <item>Técnico en Ingeniería de Software</item>
+        <item>Técnico en Ingeniería de Hardware</item>
+    </string-array>
+
+    <string-array name="link_carreras">
+        <item>141</item>
+        <item>142</item>
+        <item>150</item>
+        <item>241</item>
+        <item>144</item>
+        <item>143</item>
+        <item>149</item>
+        <item>148</item>
+        <item>145</item>
+        <item>147</item>
+        <item>146</item>
+    </string-array>
+
+    <string-array name="edificios">
+        <item>Edificio Francisco Morazán</item>
+        <item>Edificio Benito Juárez</item>
+        <item>Edificio Jorge Luis Borges</item>
+        <item>Casa del Estudiante 1</item>
+        <item>Casa del Estudiante 2</item>
+        <item>Casa 135</item>
+        <item>Casa 125</item>
+        <item>Edificio Los Fundadores</item>
+        <item>Edificio Giuseppe Garibaldi</item>
+        <item>Edificio Gabriela Mistral</item>
+        <item>Edificio Simón Bolívar</item>
+
+        <item>Polideportivo</item>
+
+        <item>Edificio Claudia Lars</item>
+
+        <item>Edificio José Martí</item>
+        <item>Edificio Thomas Jefferson</item>
+        <item>Edificio Federico García Lorca</item>
+    </string-array>
+
+    <string-array name="edificioscoordenadas">
+        <item>13.7003318,-89.202791</item>
+        <item>13.7005482,-89.2021406</item>
+        <item>13.7007853,-89.2024274</item>
+        <item>13.7007996,-89.2020177</item>
+        <item>13.7008683,-89.2020172</item>
+        <item>13.7005385,-89.2015214</item>
+        <item>13.7005353,-89.2018862</item>
+        <item>13.7010799,-89.2019345</item>
+        <item>13.7007853,-89.2024274</item>
+        <item>13.7009234,-89.2016093</item>
+        <item>13.7005762,-89.201121</item>
+
+        <item>13.6997682,-89.2009253</item>
+
+        <item>13.7007237,-89.2019459</item>
+
+        <item>13.7000152,-89.2020241</item>
+        <item>13.6998117,-89.2021182</item>
+        <item>13.6996654,-89.2016908</item>
+    </string-array>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

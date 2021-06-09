@@ -17,8 +17,12 @@
                 android:icon="@drawable/ic_menu_slideshow"
                 android:title="@string/menu_slideshow"/>
         <item
+                android:id="@+id/creatorFragment"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/menu_creador"/>
+        <item
                 android:id="@+id/closeapp"
                 android:icon="@drawable/ic_menu_slideshow"
-                android:title="CLOSE APP"/>
+                android:title="@string/menu_close"/>
     </group>
 </menu>
